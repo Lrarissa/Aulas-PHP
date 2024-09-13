@@ -7,4 +7,5 @@
     echo "$nome1<br>";
     echo "$email<br>";
     echo "$senha1<br>";  
+    echo "$esc<br>";
 ?>
