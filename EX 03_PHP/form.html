@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="GET">
+        <div>
+            <label for="Nome">Nome: </label>
+            <input type="text" placeholder="Nome completo" required>
+        </div>
+        <br>
+        <div>
+            <label for="Email">E-mail: </label>
+            <input type="email" placeholder="Insira um e-mail valído" required>
+        </div>
+        <br>
+        <div>
+            <label for="Curso">Escolha seu curso:</label>
+            <select name="curso">
+                <option value="Escolha">Escolha uma opção</option>
+
+                <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                
+                <option value="CC">Ciência da computação</option>
+
+                <option value="SI">Sistemas de Informação</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="cursando" value="1">
+            <label for="cursando">Cursando</label>
+
+            <input type="radio" name="cursando" value="2">
+            <label for="terminado">Terminado</label>
+
+            <br>
+
+            <label for="cursando">Data do termino</label>
+            
+
+        </div>
+
+        <br>
+        <div>
+            <input type="radio" name="opcao" value="1">
+            <label for="manha">Manhã</label>
+
+            <input type="radio" name="opcao" value="2">
+            <label for="tarde">Tarde</label>
+            
+            <input type="radio" name="opcao" value="3">
+            <label for="noite">Noite</label>
+        </div>
+        <br>
+        <div>
+            <label for=""></label>
+            <input type="text" placeholder="" required>
+        </div>
+        <br>
+        <div>
+            <label for=""></label>
+            <input type="text" placeholder="" required>
+        </div>
+        <br>
+        <div>
+            <label for=""></label>
+            <input type="text" placeholder="" required>
+        </div>
+
+
+        
+    </form>
+</body>
+</html>
