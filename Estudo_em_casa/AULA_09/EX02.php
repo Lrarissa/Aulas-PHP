@@ -41,5 +41,4 @@
    var_dump($r);
    echo "Potência <br>";
 
-
 ?>
